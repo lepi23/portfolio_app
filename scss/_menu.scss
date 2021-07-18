@@ -1,4 +1,4 @@
-$portrait: url(../img/portrait.jpg);
+$portrait: url(../img/portrait2.png);
 
 // Menu Button
 .menu-btn {
@@ -13,7 +13,7 @@ $portrait: url(../img/portrait.jpg);
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -43,7 +43,6 @@ $portrait: url(../img/portrait.jpg);
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -60,6 +59,7 @@ $portrait: url(../img/portrait.jpg);
     width: 50%;
     height: 100vh;
     overflow: hidden;
+    background: rgba(darken($primary-color, 5), 0.9);
   }
 
   &-nav {
@@ -78,7 +78,7 @@ $portrait: url(../img/portrait.jpg);
 
   // Branding Side
   &-branding {
-    background: $primary-color;
+    background: rgba($primary-color, 0.9);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -91,6 +91,7 @@ $portrait: url(../img/portrait.jpg);
       width: 250px;
       height: 250px;
       background: $portrait;
+      background-position: center;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -115,7 +116,7 @@ $portrait: url(../img/portrait.jpg);
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
