@@ -1,5 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #47484a;
+$secondary-color: #cfe649;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -60,4 +60,9 @@ $background-opacity: 0.9;
   @media screen and (min-width: 1171px) {
     @content;
   }
+}
+
+@font-face {
+  font-family: "ZenTokyoZoo";
+  src: url("ZenTokyoZoo.ttf") format("ttf");
 }

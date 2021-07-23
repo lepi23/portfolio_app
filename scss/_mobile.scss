@@ -44,9 +44,10 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0);
     .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait2.png");
       width: 150px;
       min-height: 150px;
+      background-position: center;
     }
   }
 
@@ -74,5 +75,11 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .slides {
+    padding: 0;
+    width: 122px;
+    height: 84px;
   }
 }
