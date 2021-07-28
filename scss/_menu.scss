@@ -63,6 +63,7 @@ $portrait: url(../img/portrait2.png);
   }
 
   &-nav {
+    z-index: 9;
     margin: 0;
     padding: 0;
     background: darken($primary-color, 5);
