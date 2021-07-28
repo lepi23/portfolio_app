@@ -44,6 +44,7 @@
     overflow: hidden;
     background: rgba(59, 59, 61, 0.9); }
   .menu-nav {
+    z-index: 9;
     margin: 0;
     padding: 0;
     background: #3b3b3d;
@@ -148,11 +149,11 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  z-index: 9;
+  z-index: 1;
   cursor: pointer;
   transition: opacity 0.2s;
   justify-content: center;
-  color: #fff;
+  color: #cfe649;
   font-size: 156px;
   text-align: center;
   line-height: 600px;
