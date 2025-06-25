@@ -1,5 +1,10 @@
 $portrait: url(../img/portrait2.png);
 
+.menu-button-row {
+  height: 60px;
+  background-color: $primary-color;
+}
+
 // Menu Button
 .menu-btn {
   position: absolute;
