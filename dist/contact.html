@@ -57,8 +57,11 @@
         <div><span class="text-secondary">Phone:</span> +358 509128619</div>
       </div>
     </main>
-    <footer id="main-footer">Copyright &copy; 2025</footer>
+    <footer id="main-footer">Copyright &copy; <span id="year"></span> </footer>
 
     <script src="js/main.js"></script>
   </body>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </html>

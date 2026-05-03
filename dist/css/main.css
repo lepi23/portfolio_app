@@ -496,4 +496,6 @@ slide p {
   .slides {
     padding: 0;
     width: 122px;
-    height: 84px; } }
+    height: 84px; }
+  .boxes div {
+    font-size: 1em; } }
