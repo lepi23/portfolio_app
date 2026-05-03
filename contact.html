@@ -52,13 +52,16 @@
       <h2 class="sm-heading">This how you can reach me...</h2>
       <div class="boxes">
         <div>
-          <span class="text-secondary">Email:</span> saarinenleevi123@gmail.com
+          <span class="text-secondary">Email:</span> leevi.oskari.saarinen@gmail.com
         </div>
         <div><span class="text-secondary">Phone:</span> +358 509128619</div>
       </div>
     </main>
-    <footer id="main-footer">Copyright &copy; 2025</footer>
+    <footer id="main-footer">Copyright &copy; <span id="year"></span> </footer>
 
     <script src="js/main.js"></script>
   </body>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </html>

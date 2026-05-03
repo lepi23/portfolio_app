@@ -49,7 +49,7 @@
     </header>
     <main id="about">
       <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
-      <h2 class="sm-heading">Let me tell you a few things...</h2>
+      <h2 class="sm-heading">Hello World! Let me tell a few things about me...</h2>
       <div class="about-info">
         <img
           src="img/portrait3.png"
@@ -62,22 +62,20 @@
         <div class="bio">
           <h3 class="text-secondary">BIO</h3>
           <p>
-            I was born and raised in Tampere Finland and being always interested
-            in technology, computers and computer programs, it is not a surprise
-            that I ended studying software engineering at the University of
-            tampere and became a software engineer.<br />
-            I am currently working as a fullstack web developer. My ambition is to
-            master my skills and expertise in web development field as I have a great interest in
-            developing easily accessible, user friendly applications. 
+            My name is Leevi. I am a tech and computer enthusiast from Tampere Finland. So no wonder I ended up studying information technology in Tampere University.
+            I have four years of working experience as a fullstack web developer.<br>
+            I like building scalable products with great user experience. I am always up for new learning opportunities and chances to put my current knowledge to use
+            to solve real life problems with well built software solutions.
+
           </p>
         </div>
         <div class="job job-1">
           <h3>Tampere University</h3>
           <h6>BSc and MSc in Information Technology</h6>
           <p>
-            I started my studies in 2016 and got my bachelors degree in 2021 and my master of science degree in 2024.
-            I studied programming and software development as my major studies.
-            During my studies and after I was working in jobs related to web development.
+            I started my studies in 2016 and got my bachelor's degree in 2021 and my master's degree in 2024.
+            I studied programming and software development as my major subject.
+            During my studies I also worked in positions related to software development.
           </p>
         </div>
         <div class="job job-2">
@@ -95,14 +93,17 @@
           <p>
             I am working as a fullstack developer to develop and maintain ERP systems mainly using Ruby-On-Rails and ReactJS. 
             I am also doing some React Native mobile development. My responsibilities are designing and implementing new features
-            to the systems based on customer requirements. Also, I fix bugs and support customers on error situations related
-            to t he systems. 
+            to the systems based on customer requirements. 
           </p>
         </div>
       </div>
     </main>
-    <footer id="main-footer">Copyright &copy; 2025</footer>
+    <footer id="main-footer">Copyright &copy; <span id="year"></span> </footer>
 
     <script src="js/main.js"></script>
   </body>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </html>
