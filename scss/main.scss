@@ -294,4 +294,16 @@ slide p {
   }
 }
 
+.item {
+  img {
+    height: 20vh;
+    object-fit: cover;
+  }
+}
+
+.slide-container {
+  img {
+    object-fit: cover;
+  }
+}
 @import "mobile";
